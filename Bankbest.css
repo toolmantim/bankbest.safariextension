@@ -1,0 +1,27 @@
+body.bankbest #aspnetForm > fieldset { display: none; }
+body.bankbest #_ctl0_ContentMain_trDescriptions > div {
+  border: 1px solid #999;
+  -webkit-border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  padding: 12px 15px !important;
+  padding-right: 30px !important;
+  margin-bottom: 5px !important;
+  position: relative;
+}
+body.bankbest #_ctl0_ContentMain_trDescriptions > div:after {
+  content: '>'; position: absolute; top: 50%; right: 15px; font-size: 18px; margin-top: -9px;
+}
+body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions > div:hover *, body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions div:hover:after {
+  color: white !important;
+}
+body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions > div:hover {
+  background-color: #999;
+}
+body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions h3, body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions div:after {
+  color: #FF952F !important;
+}
+body.bankbest #contentColumn #_ctl0_ContentMain_trDescriptions p {
+  margin-bottom: 0 !important;
+}
+
